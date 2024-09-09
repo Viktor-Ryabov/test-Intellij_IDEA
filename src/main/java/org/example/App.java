@@ -12,6 +12,9 @@ public class App {
         mountain.setName("Elbrus");
         mountain.setHightMountain(5642);
 
-        System.out.printf("В России есть гора %s, её высота %n", mountain.getName(), mountain.getHightMountain());
+        String name = mountain.getName();
+        int hight = mountain.getHightMountain();
+
+        System.out.printf("В России есть гора %s и её высота %d метров!", name, hight);
     }
 }

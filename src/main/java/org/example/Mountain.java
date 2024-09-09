@@ -12,7 +12,7 @@ import lombok.*;
 
 public class Mountain {
     public String name;
-    public int hightMountain;
+    public int hightMountain = 0;
 
     public String getName() {
         return name;
